@@ -1,0 +1,49 @@
+.title {
+    font: italic bold 30px "Snell Roundhand", cursive;
+    text-align: center;
+}
+
+#cookie {    
+    margin: auto;
+    display: block;
+}
+
+#msg p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.dialog {
+    margin: auto;
+    width: 300px;
+    height: 0;
+    opacity: 0;
+    text-align: center;    
+    display: table;    
+    position: relative;
+    color: #000;
+    background: #f3961c;
+    background: -webkit-gradient(linear, 0 100%, 0 0, from(#f3961c), to(#f9d835));
+    background: -moz-linear-gradient(#f3961c, #f9d835);
+    background: -o-linear-gradient(#f3961c, #f9d835);
+    background: linear-gradient(#f3961c, #f9d835);
+    -webkit-border-top-left-radius: 25px 50px;
+    -webkit-border-top-right-radius: 25px 50px;
+    -webkit-border-bottom-right-radius: 25px 50px;
+    -webkit-border-bottom-left-radius: 25px 50px;
+    -moz-border-radius: 25px / 50px;
+    border-radius: 25px / 50px;
+    font-family: Snell Roundhand, cursive
+}
+
+.dialog:after {
+    content: "";
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    border-width: 50px 20px 0 0;
+    border-style: solid;
+    border-color: transparent #f3961c;
+    display: block;
+    width: 0;
+}
