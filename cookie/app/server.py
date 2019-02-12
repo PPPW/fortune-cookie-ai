@@ -21,7 +21,6 @@ app.mount('/static', StaticFiles(directory=path/'static'))
 
 async def download_file(url, dest):
     if dest.exists(): return
-    print(dest)
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             data = await response.read()
