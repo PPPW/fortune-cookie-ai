@@ -9,7 +9,7 @@ import random
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1HS_x69UJRxy7AFbLfNo96rNRK8Y5fCQ2'
+export_file_url = 'https://www.dropbox.com/s/vay47aricy4tdou/cookie_export.pkl?dl=1'
 export_file_name = 'cookie_export.pkl'
 
 starter = ['you', 'the', 'a', 'your', 'if', 'it', 'do', 'be', "don't", 'never', 'there', 'love', 'when', "it's", 'life', 'all', 'to', 'an', 'in', 'keep', 'everything', 'we', 'i', 'today', 'people', 'nothing', 'let', 'stop', 'for', 'good']

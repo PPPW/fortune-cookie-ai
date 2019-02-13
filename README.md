@@ -1,9 +1,9 @@
 # AI that Generates Fortune Cookie Messages
 
-![](images/cookie.png)
+![](images/cookie.gif)
 
 Play with it here: 
-??
+https://fortune-cookie.onrender.com
 
 Image courtesy: 
 https://www.glueckskekse.de/
@@ -20,7 +20,7 @@ A [ULMFiT](https://arxiv.org/abs/1801.06146) model is trained to generate fortun
 ## Usage
 
 The app is deployed on: 
-??
+https://fortune-cookie.onrender.com
 
 To play with it on local server, install the requirements: 
 
