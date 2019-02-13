@@ -47,3 +47,7 @@
     display: block;
     width: 0;
 }
+
+#loader {
+    text-align: center;
+}

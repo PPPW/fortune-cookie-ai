@@ -1,7 +1,9 @@
-let isOpen = false, $msg;
+let isOpen = false, $msg, $loader;
 
 $(function () {    
     $msg = $('#msg');
+    $loader = $('#loader');
+    $loader.hide();
     let $cookie = $('#cookie'),
         $title = $('.title');
 
@@ -23,7 +25,13 @@ $(function () {
             let url = `${loc.protocol}//${loc.hostname}:${loc.port}/gen_sentence`;
             $.ajax({
                 type: "POST",
-                url: url,            
+                url: url,          
+                beforeSend: function() {
+                    $loader.show();
+                },
+                complete: function(){
+                    $loader.hide();
+                },  
                 success: onSuccess,
                 dataType: "json"
             });
