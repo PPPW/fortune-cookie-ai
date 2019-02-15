@@ -51,3 +51,9 @@
 #loader {
     text-align: center;
 }
+
+footer {    
+    position: fixed;
+    bottom: 0;   
+    left: 50%;
+}
